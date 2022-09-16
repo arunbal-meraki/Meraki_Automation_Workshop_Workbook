@@ -1,0 +1,11 @@
+﻿device_name,device_type,network,model,serial_number,device_mac,tags,ip,order_number,claimed_at,country,expiration_date,inventory_state
+DC-NA-R1-MX100-WS,Security appliance,Datacenter-NA - appliance,MX100,QXXX-XXXX-XXX1,aa:bb:cc:dd:ee:ff, recently-added MX ,198.27.154.100,YYYYYYYYY,"May 7, 2016",US,"Dec 20, 2027",In use
+DC-NA-R1-MX100-P,Security appliance,Datacenter-NA - appliance,MX100,QXXX-XXXX-XXX2,aa:bb:cc:dd:ee:ff, recently-added MX ,198.27.154.100,YYYYYYYYY,"May 7, 2016",US,"Dec 20, 2027",In use
+CAMPUS-SFO-IDF1.1.4-MS220-24P,Switch,,MS220-24P,QXXX-XXXX-XXX3,aa:bb:cc:dd:ee:ff, recently-added ,,YYYYYYYYY,"Jun 7, 2016",US,"Sep 21, 2025",Unused
+CAMPUS-SFO-3.11-MR44,Wireless,San Francisco - wireless,MR44,QXXX-XXXX-XXX4,aa:bb:cc:dd:ee:ff, Corp_WiFi Guest_WiFi Wifi6 ,198.27.154.100,YYYYYYYYY,"Nov 21, 2020",US,"Nov 21, 2023",In use
+CAMPUS-SFO-1.7-MR33,Wireless,San Francisco - wireless,MR33,QXXX-XXXX-XXX5,aa:bb:cc:dd:ee:ff, Corp_WiFi Guest_WiFi ,198.27.154.100,YYYYYYYYY,"Mar 20, 2018",US,"Sep 21, 2025",In use
+CAMPUS-SFO-MDF1.1-Temperature,Sensor,San Francisco - environmental,MT10,QXXX-XXXX-XXX6,aa:bb:cc:dd:ee:ff,,,YYYYYYYYY,"Oct 5, 2020",US,"Oct 5, 2023",In use
+CAMPUS-SFO-1.2-MV21,Camera,,MV21,QXXX-XXXX-XXX7,aa:bb:cc:dd:ee:ff, SF ,,YYYYYYYYY,"Sep 27, 2016",US,,Unused
+CAMPUS-SFO-3.7-MR53,Wireless,San Francisco - wireless,MR53,QXXX-XXXX-XXX8,aa:bb:cc:dd:ee:ff, Corp_WiFi Guest_WiFi ,198.27.154.100,YYYYYYYYY,"Mar 20, 2018",US,"Sep 21, 2025",In use
+CAMPUS-SFO-IDF3.1.1-MS350-24X,Switch,San Francisco - switch,MS350-24X,QXXX-XXXX-XXX9,aa:bb:cc:dd:ee:ff,,198.27.154.100,YYYYYYYYY,"Mar 20, 2018",US,"Sep 21, 2025",In use
+Maribel Perry Z3,Security appliance,Teleworker Maribel Perry,Z3,QXXX-XXXX-XX10,aa:bb:cc:dd:ee:ff,,198.27.154.100,YYYYYYYYY,"Mar 20, 2018",US,"Sep 21, 2025",In use
