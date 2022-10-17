@@ -26,9 +26,9 @@ response_devices = dashboard.organizations.getOrganizationDevicesAvailabilities(
     organization_id, total_pages='all')
 
 #We then iterate through the list of devices and search for only wireless devices and then use prettytable to print the serial number and status.
+t = PrettyTable()
+t.field_names = ['Serial', 'Status']
 for device in response_devices:
     if device['productType'] == 'wireless':
-        t = PrettyTable()
-        t.field_names = ['Serial', 'Status']
         t.add_row([device['serial'], device['status']])
-        print(t)
+print(t)
