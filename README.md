@@ -348,10 +348,10 @@ for org in response:
     if org['name'] == 'DevNet Sandbox':
         organization_id = org['id']
 ```
-9. Navigate to [GET organizations devices](https://developer.cisco.com/meraki/api-v1/#!get-organization-devices)
+9. Navigate to [GET organizations devices](https://developer.cisco.com/meraki/api-v1/#!get-organization-devices-availabilities)
 10. Copy the following line append it the previous code.
 ```python
-response = dashboard.organizations.getOrganizationDevices(
+response_devices = dashboard.organizations.getOrganizationDevicesAvailabilities(
     organization_id, total_pages='all')
 ```
 11. Copy the following code snippet and append it to the code as well.
