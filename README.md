@@ -329,7 +329,7 @@ print(serials)
 
 List the status of wireless AP's in the *DevNet Sandbox* org.
 
-1. Go to [Meraki API Docs](https://developer.cisco.com/meraki/api-v1) Navigate to the [GET organizations request](https://developer.cisco.com/meraki/api-v1/#!get-organization)
+1. Go to [Meraki API Docs](https://developer.cisco.com/meraki/api-v1) Navigate to the [GET organizations request](https://developer.cisco.com/meraki/api-v1/#!get-organizations)
 2. Under Template copy the Meraki Library code snippet
 3. Use your favourite editor or ipython
 4. Paste it into your editor.
