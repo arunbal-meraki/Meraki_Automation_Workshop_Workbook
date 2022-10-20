@@ -293,11 +293,11 @@ def get_net(org_id):
     organization_id = org_id
     response = dashboard.organizations.getOrganizationNetworks(
                 organization_id, total_pages='all')
+    t = PrettyTable(['Network Name', 'Network ID'])
     for net in response:
         if net['name'] == 'DevNet Sandbox ALWAYS ON':
-            t = PrettyTable(['Network Name', 'Network ID'])
             t.add_row([net['name'], net['id']])
-            print(t)
+    print(t)
 
 org_id = getorgid(API_KEY)
 
@@ -356,12 +356,12 @@ response_devices = dashboard.organizations.getOrganizationDevicesAvailabilities(
 ```
 11. Copy the following code snippet and append it to the code as well.
 ```python
+t = PrettyTable()
+t.field_names = ['Serial', 'Status']
 for device in response_devices:
     if device['productType'] == 'wireless':
-        t = PrettyTable()
-        t.field_names = ['Serial', 'Status']
         t.add_row([device['serial'], device['status']])
-        print(t)
+print(t)
 ```
 12. If you are using an editor make sure to save the file as a python file (use .py extension)
 13. Run the file or if you are using ipython just hit Enter.
